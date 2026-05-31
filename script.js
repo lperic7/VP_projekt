@@ -31,13 +31,13 @@ const DEFAULT_COLOR = "#62626a";
 const getTeamColor = t => TEAM_COLORS[t] || DEFAULT_COLOR;
 
 
-let driverHistory = [];   // f1_drivers_history.json
-let teamHistory = [];   // f1_teams_history.json
-let driverStats = [];   // f1_driver_stats.json
+let driverHistory = []; // f1_drivers_history.json
+let teamHistory = []; // f1_teams_history.json
+let driverStats = []; // f1_driver_stats.json
 
-let driverByYear = {};   // { year → [ rows ] }
-let teamByYear = {};   // { year → { teamName → cumulative_wins } }
-let teamByYearRaw = {};   // { year → { teamName → wins_year } } za streamgraph
+let driverByYear = {}; // { year → [ rows ] }
+let teamByYear = {}; // { year → { teamName → cumulative_wins } }
+let teamByYearRaw = {}; // { year → { teamName → wins_year } } za streamgraph
 
 let years = [];
 let currentYearIdx  = 0;
@@ -97,7 +97,6 @@ const dotsG1 = svgLine.append("g");
 const dotsG2 = svgLine.append("g");
 
 //  SVG SETUP — RADAR CHART
-// ===========================================================
 const rRadius = 110;
 const rW = 400, rH = 360;
 const svgRadar = d3.select("#radarChart").append("svg")
@@ -202,6 +201,11 @@ function updateDashboard(year) {
     dEnter.append("text").attr("class","bar-label").attr("x",-10).attr("dy","0.35em").attr("text-anchor","end");
     dEnter.append("text").attr("class","bar-value").attr("dy","0.35em");
 
+    // korištenje izvora
+    // logika za animirano resortiranje stupaca preuzeta je i prilagođena prema:
+    // [2] D3 Bar CHart Race (https://observablehq.com/@d3/bar-chart-race)
+    // implementirana je .transition() metoda u kombinaciji s
+    // d3.easeLinear() kako bi se postigao glatki efekt pomicanja pozicija i ažuriranje širine stupaca
     const dMerge = dBars.merge(dEnter);
     dMerge.transition().duration(250).ease(d3.easeLinear)
         .attr("transform", d => `translate(0,${yDrv(d.driver_name) ?? 0})`);
@@ -371,7 +375,12 @@ function updateRadarChart() {
             .attr("stroke-dasharray","3,3");
     });
 
-    // osi i oznake za svaku metriku
+    // korištenje izvora
+    // koncept Radar Charta preuzet je i inspiriran primjerom:
+    //[4] Radar Chart (https://observablehq.com/@palewire/radar-chart)
+    // način korištenja: izvor je kroišten za razumijevanje logike i postavljanja
+    // polarnih osi i mapiranja više varijabli na radijalne dimenzije
+    // implementacija crtanja poligona prilagođena je vlastitoj arhitekturi koda
     RADAR_METRICS.forEach((m, i) => {
         const a = angleSlice * i - Math.PI / 2;
         const x = rRadius * Math.cos(a);
@@ -432,6 +441,11 @@ function buildStreamgraph() {
         return row;
     });
 
+    // korištenje izvora
+    // za vizualizaciju dominacije konstruktora korišten je streamgraph uzorak:
+    // [3] D3 Streamgraph (https://observablehq.com/@d3/streamgraph)
+    // način korištenja: korištena je funkcija d3.stack() s d3.stackOffsetSilhouette 
+    // za centriranje podataka i d3.area() s curveBasis krivuljom za "tekući" prikaz
     const stack = d3.stack().keys(allTeams).offset(d3.stackOffsetSilhouette);
     const series = stack(streamData);
 
