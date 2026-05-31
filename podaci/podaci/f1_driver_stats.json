@@ -1,0 +1,922 @@
+[
+  {
+    "driver_name":"Alain Prost",
+    "wins":51,
+    "podiums":106,
+    "pole_positions":33,
+    "championships":4,
+    "consistency":58.9
+  },
+  {
+    "driver_name":"Alan Jones",
+    "wins":12,
+    "podiums":24,
+    "pole_positions":6,
+    "championships":1,
+    "consistency":31.6
+  },
+  {
+    "driver_name":"Alberto Ascari",
+    "wins":13,
+    "podiums":17,
+    "pole_positions":14,
+    "championships":2,
+    "consistency":53.1
+  },
+  {
+    "driver_name":"Alessandro Nannini",
+    "wins":1,
+    "podiums":9,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":20.8
+  },
+  {
+    "driver_name":"Ayrton Senna",
+    "wins":41,
+    "podiums":80,
+    "pole_positions":65,
+    "championships":3,
+    "consistency":52.5
+  },
+  {
+    "driver_name":"Bill Vukovich",
+    "wins":2,
+    "podiums":2,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":40.0
+  },
+  {
+    "driver_name":"Bob Sweikert",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":40.0
+  },
+  {
+    "driver_name":"Bruce McLaren",
+    "wins":4,
+    "podiums":27,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":26.2
+  },
+  {
+    "driver_name":"Carlos Pace",
+    "wins":1,
+    "podiums":6,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":16.4
+  },
+  {
+    "driver_name":"Carlos Reutemann",
+    "wins":12,
+    "podiums":45,
+    "pole_positions":6,
+    "championships":0,
+    "consistency":43.8
+  },
+  {
+    "driver_name":"Carlos Sainz",
+    "wins":4,
+    "podiums":27,
+    "pole_positions":6,
+    "championships":0,
+    "consistency":58.7
+  },
+  {
+    "driver_name":"Charles Leclerc",
+    "wins":8,
+    "podiums":43,
+    "pole_positions":26,
+    "championships":0,
+    "consistency":72.5
+  },
+  {
+    "driver_name":"Clay Regazzoni",
+    "wins":5,
+    "podiums":28,
+    "pole_positions":5,
+    "championships":0,
+    "consistency":36.2
+  },
+  {
+    "driver_name":"Damon Hill",
+    "wins":22,
+    "podiums":42,
+    "pole_positions":20,
+    "championships":1,
+    "consistency":46.7
+  },
+  {
+    "driver_name":"Dan Gurney",
+    "wins":4,
+    "podiums":19,
+    "pole_positions":3,
+    "championships":0,
+    "consistency":24.1
+  },
+  {
+    "driver_name":"Daniel Ricciardo",
+    "wins":8,
+    "podiums":32,
+    "pole_positions":3,
+    "championships":0,
+    "consistency":58.4
+  },
+  {
+    "driver_name":"David Coulthard",
+    "wins":13,
+    "podiums":62,
+    "pole_positions":12,
+    "championships":0,
+    "consistency":48.6
+  },
+  {
+    "driver_name":"Denny Hulme",
+    "wins":8,
+    "podiums":33,
+    "pole_positions":1,
+    "championships":1,
+    "consistency":38.4
+  },
+  {
+    "driver_name":"Didier Pironi",
+    "wins":3,
+    "podiums":13,
+    "pole_positions":4,
+    "championships":0,
+    "consistency":30.6
+  },
+  {
+    "driver_name":"Eddie Irvine",
+    "wins":4,
+    "podiums":26,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":34.7
+  },
+  {
+    "driver_name":"Elio de Angelis",
+    "wins":2,
+    "podiums":9,
+    "pole_positions":3,
+    "championships":0,
+    "consistency":20.0
+  },
+  {
+    "driver_name":"Emerson Fittipaldi",
+    "wins":14,
+    "podiums":35,
+    "pole_positions":6,
+    "championships":2,
+    "consistency":32.9
+  },
+  {
+    "driver_name":"Esteban Ocon",
+    "wins":1,
+    "podiums":4,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":48.1
+  },
+  {
+    "driver_name":"Felipe Massa",
+    "wins":11,
+    "podiums":41,
+    "pole_positions":16,
+    "championships":0,
+    "consistency":61.6
+  },
+  {
+    "driver_name":"Fernando Alonso",
+    "wins":32,
+    "podiums":106,
+    "pole_positions":22,
+    "championships":2,
+    "consistency":64.6
+  },
+  {
+    "driver_name":"Fran\u00e7ois Cevert",
+    "wins":1,
+    "podiums":13,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":38.3
+  },
+  {
+    "driver_name":"George Russell",
+    "wins":3,
+    "podiums":15,
+    "pole_positions":6,
+    "championships":0,
+    "consistency":53.9
+  },
+  {
+    "driver_name":"Gerhard Berger",
+    "wins":10,
+    "podiums":48,
+    "pole_positions":12,
+    "championships":0,
+    "consistency":38.6
+  },
+  {
+    "driver_name":"Giancarlo Baghetti",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":11.5
+  },
+  {
+    "driver_name":"Giancarlo Fisichella",
+    "wins":3,
+    "podiums":19,
+    "pole_positions":4,
+    "championships":0,
+    "consistency":35.9
+  },
+  {
+    "driver_name":"Gilles Villeneuve",
+    "wins":6,
+    "podiums":13,
+    "pole_positions":2,
+    "championships":0,
+    "consistency":33.8
+  },
+  {
+    "driver_name":"Graham Hill",
+    "wins":14,
+    "podiums":36,
+    "pole_positions":13,
+    "championships":2,
+    "consistency":24.6
+  },
+  {
+    "driver_name":"Gunnar Nilsson",
+    "wins":1,
+    "podiums":4,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":21.9
+  },
+  {
+    "driver_name":"Heikki Kovalainen",
+    "wins":1,
+    "podiums":4,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":34.8
+  },
+  {
+    "driver_name":"Heinz-Harald Frentzen",
+    "wins":3,
+    "podiums":18,
+    "pole_positions":2,
+    "championships":0,
+    "consistency":27.7
+  },
+  {
+    "driver_name":"Innes Ireland",
+    "wins":1,
+    "podiums":4,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":9.1
+  },
+  {
+    "driver_name":"Jack Brabham",
+    "wins":14,
+    "podiums":31,
+    "pole_positions":13,
+    "championships":3,
+    "consistency":32.0
+  },
+  {
+    "driver_name":"Jackie Stewart",
+    "wins":27,
+    "podiums":43,
+    "pole_positions":17,
+    "championships":3,
+    "consistency":50.0
+  },
+  {
+    "driver_name":"Jacky Ickx",
+    "wins":8,
+    "podiums":25,
+    "pole_positions":13,
+    "championships":0,
+    "consistency":25.6
+  },
+  {
+    "driver_name":"Jacques Laffite",
+    "wins":6,
+    "podiums":32,
+    "pole_positions":7,
+    "championships":0,
+    "consistency":24.4
+  },
+  {
+    "driver_name":"Jacques Villeneuve",
+    "wins":11,
+    "podiums":23,
+    "pole_positions":13,
+    "championships":1,
+    "consistency":33.3
+  },
+  {
+    "driver_name":"James Hunt",
+    "wins":10,
+    "podiums":23,
+    "pole_positions":14,
+    "championships":1,
+    "consistency":34.4
+  },
+  {
+    "driver_name":"Jarno Trulli",
+    "wins":1,
+    "podiums":11,
+    "pole_positions":4,
+    "championships":0,
+    "consistency":31.2
+  },
+  {
+    "driver_name":"Jean Alesi",
+    "wins":1,
+    "podiums":32,
+    "pole_positions":2,
+    "championships":0,
+    "consistency":30.2
+  },
+  {
+    "driver_name":"Jean-Pierre Beltoise",
+    "wins":1,
+    "podiums":8,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":20.7
+  },
+  {
+    "driver_name":"Jean-Pierre Jabouille",
+    "wins":2,
+    "podiums":2,
+    "pole_positions":6,
+    "championships":0,
+    "consistency":7.3
+  },
+  {
+    "driver_name":"Jenson Button",
+    "wins":15,
+    "podiums":50,
+    "pole_positions":8,
+    "championships":1,
+    "consistency":52.1
+  },
+  {
+    "driver_name":"Jim Clark",
+    "wins":25,
+    "podiums":32,
+    "pole_positions":34,
+    "championships":2,
+    "consistency":44.4
+  },
+  {
+    "driver_name":"Jim Rathmann",
+    "wins":1,
+    "podiums":4,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":60.0
+  },
+  {
+    "driver_name":"Jimmy Bryan",
+    "wins":1,
+    "podiums":3,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":44.4
+  },
+  {
+    "driver_name":"Jo Bonnier",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":7.3
+  },
+  {
+    "driver_name":"Jo Siffert",
+    "wins":2,
+    "podiums":6,
+    "pole_positions":2,
+    "championships":0,
+    "consistency":10.0
+  },
+  {
+    "driver_name":"Jochen Mass",
+    "wins":1,
+    "podiums":8,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":22.8
+  },
+  {
+    "driver_name":"Jochen Rindt",
+    "wins":6,
+    "podiums":13,
+    "pole_positions":10,
+    "championships":1,
+    "consistency":24.2
+  },
+  {
+    "driver_name":"Jody Scheckter",
+    "wins":10,
+    "podiums":33,
+    "pole_positions":3,
+    "championships":1,
+    "consistency":43.4
+  },
+  {
+    "driver_name":"John Surtees",
+    "wins":6,
+    "podiums":24,
+    "pole_positions":8,
+    "championships":1,
+    "consistency":23.2
+  },
+  {
+    "driver_name":"John Watson",
+    "wins":5,
+    "podiums":20,
+    "pole_positions":2,
+    "championships":0,
+    "consistency":27.3
+  },
+  {
+    "driver_name":"Johnnie Parsons",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":55.6
+  },
+  {
+    "driver_name":"Johnny Herbert",
+    "wins":3,
+    "podiums":7,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":17.6
+  },
+  {
+    "driver_name":"Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+    "wins":2,
+    "podiums":15,
+    "pole_positions":3,
+    "championships":0,
+    "consistency":46.2
+  },
+  {
+    "driver_name":"Juan Fangio",
+    "wins":24,
+    "podiums":35,
+    "pole_positions":29,
+    "championships":5,
+    "consistency":72.5
+  },
+  {
+    "driver_name":"Juan Pablo Montoya",
+    "wins":7,
+    "podiums":30,
+    "pole_positions":13,
+    "championships":0,
+    "consistency":55.8
+  },
+  {
+    "driver_name":"Keke Rosberg",
+    "wins":5,
+    "podiums":17,
+    "pole_positions":5,
+    "championships":1,
+    "consistency":21.9
+  },
+  {
+    "driver_name":"Kimi R\u00e4ikk\u00f6nen",
+    "wins":21,
+    "podiums":103,
+    "pole_positions":18,
+    "championships":1,
+    "consistency":62.8
+  },
+  {
+    "driver_name":"Lando Norris",
+    "wins":4,
+    "podiums":26,
+    "pole_positions":9,
+    "championships":0,
+    "consistency":73.4
+  },
+  {
+    "driver_name":"Lee Wallard",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":50.0
+  },
+  {
+    "driver_name":"Lewis Hamilton",
+    "wins":105,
+    "podiums":202,
+    "pole_positions":104,
+    "championships":7,
+    "consistency":87.6
+  },
+  {
+    "driver_name":"Lorenzo Bandini",
+    "wins":1,
+    "podiums":8,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":20.5
+  },
+  {
+    "driver_name":"Ludovico Scarfiotti",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":7.7
+  },
+  {
+    "driver_name":"Luigi Fagioli",
+    "wins":1,
+    "podiums":6,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":85.7
+  },
+  {
+    "driver_name":"Luigi Musso",
+    "wins":1,
+    "podiums":7,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":32.0
+  },
+  {
+    "driver_name":"Mario Andretti",
+    "wins":12,
+    "podiums":19,
+    "pole_positions":18,
+    "championships":1,
+    "consistency":27.9
+  },
+  {
+    "driver_name":"Mark Webber",
+    "wins":9,
+    "podiums":42,
+    "pole_positions":13,
+    "championships":0,
+    "consistency":55.8
+  },
+  {
+    "driver_name":"Maurice Trintignant",
+    "wins":2,
+    "podiums":10,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":9.4
+  },
+  {
+    "driver_name":"Max Verstappen",
+    "wins":63,
+    "podiums":112,
+    "pole_positions":40,
+    "championships":4,
+    "consistency":81.3
+  },
+  {
+    "driver_name":"Michael Schumacher",
+    "wins":91,
+    "podiums":155,
+    "pole_positions":68,
+    "championships":7,
+    "consistency":71.1
+  },
+  {
+    "driver_name":"Michele Alboreto",
+    "wins":5,
+    "podiums":23,
+    "pole_positions":2,
+    "championships":0,
+    "consistency":15.3
+  },
+  {
+    "driver_name":"Mika H\u00e4kkinen",
+    "wins":20,
+    "podiums":51,
+    "pole_positions":26,
+    "championships":2,
+    "consistency":44.2
+  },
+  {
+    "driver_name":"Mike Hawthorn",
+    "wins":3,
+    "podiums":18,
+    "pole_positions":4,
+    "championships":1,
+    "consistency":32.6
+  },
+  {
+    "driver_name":"Nelson Piquet",
+    "wins":23,
+    "podiums":60,
+    "pole_positions":24,
+    "championships":3,
+    "consistency":41.5
+  },
+  {
+    "driver_name":"Nico Rosberg",
+    "wins":23,
+    "podiums":57,
+    "pole_positions":30,
+    "championships":1,
+    "consistency":70.4
+  },
+  {
+    "driver_name":"Nigel Mansell",
+    "wins":31,
+    "podiums":59,
+    "pole_positions":32,
+    "championships":1,
+    "consistency":35.9
+  },
+  {
+    "driver_name":"Niki Lauda",
+    "wins":25,
+    "podiums":54,
+    "pole_positions":24,
+    "championships":3,
+    "consistency":39.1
+  },
+  {
+    "driver_name":"Nino Farina",
+    "wins":5,
+    "podiums":20,
+    "pole_positions":6,
+    "championships":1,
+    "consistency":55.9
+  },
+  {
+    "driver_name":"Olivier Panis",
+    "wins":1,
+    "podiums":5,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":17.1
+  },
+  {
+    "driver_name":"Oscar Piastri",
+    "wins":2,
+    "podiums":10,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":82.6
+  },
+  {
+    "driver_name":"Pastor Maldonado",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":33.3
+  },
+  {
+    "driver_name":"Pat Flaherty",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":33.3
+  },
+  {
+    "driver_name":"Patrick Depailler",
+    "wins":2,
+    "podiums":19,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":37.9
+  },
+  {
+    "driver_name":"Patrick Tambay",
+    "wins":2,
+    "podiums":11,
+    "pole_positions":5,
+    "championships":0,
+    "consistency":18.9
+  },
+  {
+    "driver_name":"Pedro Rodr\u00edguez",
+    "wins":2,
+    "podiums":7,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":16.7
+  },
+  {
+    "driver_name":"Peter Collins",
+    "wins":3,
+    "podiums":9,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":26.5
+  },
+  {
+    "driver_name":"Peter Gethin",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":6.7
+  },
+  {
+    "driver_name":"Peter Revson",
+    "wins":2,
+    "podiums":8,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":38.7
+  },
+  {
+    "driver_name":"Phil Hill",
+    "wins":3,
+    "podiums":16,
+    "pole_positions":6,
+    "championships":1,
+    "consistency":32.7
+  },
+  {
+    "driver_name":"Piero Taruffi",
+    "wins":1,
+    "podiums":5,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":22.2
+  },
+  {
+    "driver_name":"Pierre Gasly",
+    "wins":1,
+    "podiums":5,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":53.2
+  },
+  {
+    "driver_name":"Ralf Schumacher",
+    "wins":6,
+    "podiums":27,
+    "pole_positions":6,
+    "championships":0,
+    "consistency":48.3
+  },
+  {
+    "driver_name":"Ren\u00e9 Arnoux",
+    "wins":7,
+    "podiums":22,
+    "pole_positions":18,
+    "championships":0,
+    "consistency":18.3
+  },
+  {
+    "driver_name":"Riccardo Patrese",
+    "wins":6,
+    "podiums":37,
+    "pole_positions":8,
+    "championships":0,
+    "consistency":22.2
+  },
+  {
+    "driver_name":"Richie Ginther",
+    "wins":1,
+    "podiums":14,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":31.5
+  },
+  {
+    "driver_name":"Robert Kubica",
+    "wins":1,
+    "podiums":12,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":56.6
+  },
+  {
+    "driver_name":"Rodger Ward",
+    "wins":1,
+    "podiums":2,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":25.0
+  },
+  {
+    "driver_name":"Ronnie Peterson",
+    "wins":10,
+    "podiums":26,
+    "pole_positions":14,
+    "championships":0,
+    "consistency":32.5
+  },
+  {
+    "driver_name":"Rubens Barrichello",
+    "wins":11,
+    "podiums":68,
+    "pole_positions":14,
+    "championships":0,
+    "consistency":44.5
+  },
+  {
+    "driver_name":"Sam Hanks",
+    "wins":1,
+    "podiums":4,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":62.5
+  },
+  {
+    "driver_name":"Sebastian Vettel",
+    "wins":53,
+    "podiums":122,
+    "pole_positions":57,
+    "championships":4,
+    "consistency":75.3
+  },
+  {
+    "driver_name":"Sergio P\u00e9rez",
+    "wins":6,
+    "podiums":39,
+    "pole_positions":3,
+    "championships":0,
+    "consistency":60.1
+  },
+  {
+    "driver_name":"Stirling Moss",
+    "wins":16,
+    "podiums":24,
+    "pole_positions":17,
+    "championships":0,
+    "consistency":40.3
+  },
+  {
+    "driver_name":"Thierry Boutsen",
+    "wins":3,
+    "podiums":15,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":14.6
+  },
+  {
+    "driver_name":"Tony Brooks",
+    "wins":6,
+    "podiums":10,
+    "pole_positions":4,
+    "championships":0,
+    "consistency":28.2
+  },
+  {
+    "driver_name":"Troy Ruttman",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":0,
+    "championships":0,
+    "consistency":22.2
+  },
+  {
+    "driver_name":"Valtteri Bottas",
+    "wins":10,
+    "podiums":67,
+    "pole_positions":20,
+    "championships":0,
+    "consistency":67.6
+  },
+  {
+    "driver_name":"Vittorio Brambilla",
+    "wins":1,
+    "podiums":1,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":12.8
+  },
+  {
+    "driver_name":"Wolfgang von Trips",
+    "wins":2,
+    "podiums":6,
+    "pole_positions":1,
+    "championships":0,
+    "consistency":25.0
+  }
+]

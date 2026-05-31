@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Evolucija Dominacije</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header-container">
+    <div class="header-inner">
+        <div>
+            <h1><span>F1</span> Evolucija Dominacije</h1>
+            <p class="header-sub">Formula 1 · Statistika · 1950 – 2024</p>
+        </div>
+    </div>
+</div>
+
+<div class="controls">
+    <div class="controls-row">
+        <button id="playButton">▶ Pokreni</button>
+        <div class="year-badge">Sezona: <span id="yearDisplay">1950</span></div>
+        <div class="speed-control">
+            <label>Brzina:</label>
+            <select id="speedSelect">
+                <option value="1200">Spora</option>
+                <option value="700" selected>Normalna</option>
+                <option value="300">Brza</option>
+            </select>
+        </div>
+    </div>
+    <div class="slider-container">
+        <span class="slider-label">1950</span>
+        <input type="range" id="yearSlider" min="1950" max="2024" value="1950">
+        <span class="slider-label" id="maxSliderYear">2024</span>
+    </div>
+</div>
+
+<!-- BAR CHART RACE ROW -->
+<div class="section-label">POREDAK KROZ POVIJEST</div>
+<div class="dashboard two-col">
+    <div class="card">
+        <h2>Top Vozači — Kumulativne Pobjede</h2>
+        <div id="barChartRace"></div>
+    </div>
+    <div class="card">
+        <h2>Top Konstruktori — Kumulativne Pobjede</h2>
+        <div id="teamChartRace"></div>
+    </div>
+</div>
+
+<!-- DRIVER COMPARISON -->
+<div class="section-label">USPOREDBA VOZAČA</div>
+<div class="search-container">
+    <div class="search-box">
+        <label id="labelDriver1">Vozač 1</label>
+        <select id="driver1Select"></select>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="search-box">
+        <label id="labelDriver2">Vozač 2</label>
+        <select id="driver2Select"></select>
+    </div>
+</div>
+
+<div class="dashboard two-col">
+    <div class="card">
+        <h2>Karijerni Tijek - Kumulativne pobjede</h2>
+        <div id="driverDetailChart"></div>
+        <div id="lineTooltip" class="stream-tooltip"></div>
+    </div>
+    <div class="card">
+        <h2>Profil Performansi</h2>
+        <div id="radarChart" style="text-align:center;"></div>
+        <div id="radarLegend" class="radar-legend"></div>
+    </div>
+</div>
+
+<!-- STREAMGRAPH -->
+<div class="section-label">DOMINACIJA KONSTRUKTORA PO SEZONAMA</div>
+<div class="dashboard one-col">
+    <div class="card">
+        <h2 id="streamgraphTitle">Pobjede po sezoni — Tokovi dominacije timova</h2>
+        <div style="position:relative;">
+            <div id="teamStreamgraph"></div>
+            <div id="streamTooltip" class="stream-tooltip"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
